@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  border-top: 1px #cccccc solid;
   font-size: var(--body-font-size-s);
 }
 
@@ -11,4 +11,12 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer ul {
+  list-style: none;
+}
+
+footer .footer li {
+  display: inline-block;
 }
