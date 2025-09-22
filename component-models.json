@@ -161,6 +161,27 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Card Type",
+        "options": [
+          {
+            "name": "Large",
+            "value": "large"
+          },
+          {
+            "name": "Small",
+            "value": "small"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "hero",
     "fields": [
       {
@@ -201,7 +222,7 @@
     "fields": [
       {
         "component": "text",
-        "valueType": "string",      
+        "valueType": "string",
         "name": "url",
         "label": "Embed"
       }
@@ -218,7 +239,7 @@
         "valueType": "string"
       }
     ]
-  },    
+  },
   {
     "id": "blockquote",
     "fields": [
