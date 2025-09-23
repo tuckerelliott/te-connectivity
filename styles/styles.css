@@ -18,7 +18,7 @@
 
 /* colors */
 --text-color: #666666;
---link-color: #666666;
+--link-color: #0066a1;;
 --link-hover-color: Invalid input color;
 --background-color: #ffffff;
 --overlay-background-color: #eeeeee;
@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -97,6 +97,15 @@ h3 { font-size: var(--heading-font-size-l); }
 h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
+
+.default-content-wrapper h3 {
+  text-align: center;
+}
+
+h5 {
+  color: #e98300;
+  font-weight: 600;;
+}
 
 p,
 dl,

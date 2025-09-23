@@ -315,28 +315,24 @@
         "value": "",
         "options": [
           {
-            "name": "Phones",
-            "value": "phones"
+            "name": "Connectors",
+            "value": "connectors"
           },
           {
-            "name": "Watches",
-            "value": "watches"
+            "name": "Cables",
+            "value": "cables"
           },
           {
-            "name": "Accessories",
-            "value": "accessories"
+            "name": "Relays",
+            "value": "relays"
           },
           {
-            "name": "Gift Cards",
-            "value": "gift-cards"
+            "name": "Assemblies",
+            "value": "asseumblies"
           },
           {
-            "name": "Plans",
-            "value": "plans"
-          },
-          {
-            "name": "Streaming",
-            "value": "streaming"
+            "name": "Sensors",
+            "value": "sensors"
           }
         ]
       }
