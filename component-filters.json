@@ -33,7 +33,15 @@
       "teaser",
       "blockquote",
       "embed",
-      "carousel"
+      "carousel",
+      "product-list-page",
+      "enrichment",
+      "product-details",
+      "product-details-plan",
+      "recommended-products",
+      "commerce-cart",
+      "commerce-checkout",
+      "commerce-order-confirmation"
     ]
   },
   {
