@@ -35,7 +35,7 @@
 --body-font-size-xxl: 16px;
 --body-font-size-xl: 14px;
 --body-font-size-l: 13px;
---body-font-size-m: 12px;
+--body-font-size-m: 14px;
 
   /* nav height */
   --nav-height: 64px;
@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -222,6 +222,10 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
 }
 
 ol {

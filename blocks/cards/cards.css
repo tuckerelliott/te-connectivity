@@ -72,24 +72,53 @@
     display: block;
   }
 }
-
+/*
 .cards.small > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 16px;
 }
 
 .cards.small > ul > li {
-  border: none;
+  border: 1px solid lightgray;
   box-shadow: none;
 }
 
 .cards.small > ul > li img {
   aspect-ratio: 4 / 3;
-  object-fit: contain;
-  border-radius: 16px;
-  height: 100px;
+  object-fit: cover;
+  height: 150px;
+}
+  */
+
+.cards.small .cards-card-body {
+    margin: 16px;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    text-align: right;
+    width: 45%;
+}
+
+  .cards.small > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 16px;
+}
+
+.cards.small > ul > li {
+  width: 300px;
+  position: relative;
+  border: 1px solid lightgrey;
+}
+
+.cards.small > ul > li img {
+    width: 140px;
+    height: 120px;
 }
